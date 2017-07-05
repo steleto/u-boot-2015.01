@@ -124,7 +124,8 @@
 
 #if !defined(CONFIG_BOOT_MODE0)
 #ifndef SPI_FLASH_LOADER
-  #define CONFIG_ENV_IS_IN_SPI_FLASH
+  /* #define CONFIG_ENV_IS_IN_SPI_FLASH */
+  #define CONFIG_ENV_IS_NOWHERE
 #endif
 #define CONFIG_ENV_OFFSET	0x80000
 #define CONFIG_ENV_SECT_SIZE	0x40000		/* smallest erase sector size */
