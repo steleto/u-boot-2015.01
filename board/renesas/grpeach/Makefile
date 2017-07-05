@@ -5,3 +5,4 @@
 
 obj-y	:= grpeach.o
 obj-y	+= lowlevel_init.o
+obj-y	+= sf_boot.o
